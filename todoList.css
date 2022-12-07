@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding:400");
+
+body {
+  background-color: seashell;
+}
+
+.container {
+  width: 500px;
+  margin: 50px auto;
+  background-color: #ffffff;
+  border: 15px solid rgb(250, 225, 177);
+  border-radius: 50px;
+}
+
+.daily-todo {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.title {
+  font-family: "Do Hyeon", sans-serif;
+  font-weight: 800;
+  color: dimgrey;
+  text-align: center;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  margin: 20px auto;
+  padding: 20px 20px;
+  text-align: left;
+  /* 테두리 둥글기 */
+  border-radius: 50px;
+  background-color: rgb(154, 215, 239);
+}
+
+.list:hover {
+  /* 할 일 스티커 마우스 올렸을 때 색상 */
+  background-color: rgb(67, 180, 250);
+}
+
+.todo {
+  width: 15px;
+  height: 15px;
+  border-color: white;
+  accent-color: orange;
+  cursor: pointer;
+}
+
+.todo-text {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-family: "Nanum Gothic Coding";
+  font-size: 15px;
+  font-weight: 700;
+  color: rgb(60, 57, 57);
+}
